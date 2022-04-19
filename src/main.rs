@@ -18,4 +18,8 @@ fn main() {
     Variable::check_multi_variable();
 
     Variable::check_shadow_variable();
+
+    Variable::check_variable_type();
+
+    Variable::transfer_type();
 }
